@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 60%;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	height: 100vh;
+
+}
+
+
+.colum-left{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.colum-left img{
+	height: 50rem;
+	
+}
+
+
+.colum-rigth{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 50%;
+	height: 34rem;
+}
+
+.caixa-braca{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 1.3rem 0;
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.caixa-braca:nth-child(1){
+	min-height: 19rem;	
+}
+.instagram-logo{
+	height: 3rem;
+}
+
+.foto-perfil{
+	clip-path: circle(38%);
+	overflow: hidden;
+	height: 6rem;
+}
+
+.instagram-logIn{
+	background-color:#0095f6 ;
+	color: white;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+.cx2{
+	text-align: center;
+
+}
+
+.cx2 a{
+	color:#0095f6 ;
+}
+
+.instagram-logOut{
+	color: #0095f6 ;
+}
+
+.getOapp{
+	color: rgb(160, 160, 160);
+}
+
+.getOapp a{
+	color: #0095f6;
+}
+
+.getOapp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	
+	padding: 1.2rem 0;
+
+}
+.btn-dowload{
+	
+	width: 100%;
+	text-align: center;
+	margin: 5px;
+	
+
+}
+.btn-dowload img{
+	width: 10rem;
+}
+
+
+@media (max-width: 1024px){
+	.container{
+		width: 80%;
+	}
+}
+
+@media (max-width: 800px){
+	.colum-left{
+		display: none;
+	}
+	.container{
+		border: 1px solid black;
+	}
+	.colum-rigth{
+		width: 65%;
+		min-width: 280px;
+
+	}
+	.container{
+		justify-content: center;
+	}
+}
