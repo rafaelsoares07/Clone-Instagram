@@ -24,7 +24,7 @@ body{
 	display: flex;
 	justify-content: start;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 
 }
 
@@ -138,6 +138,8 @@ body{
 	}
 	
 	.colum-rigth{
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		min-width: 280px;
 		height: 80%;
