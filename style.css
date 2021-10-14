@@ -140,6 +140,36 @@ body{
 	.colum-rigth{
 		justify-content: center;
 		align-items: center;
+		width: 70%;
+		min-width: 280px;
+		height: 90%;
+		
+	}
+	.container{
+		width: 80%;
+		justify-content: center;
+		
+
+	}
+
+	.cx1{
+		height: 250px;
+	}
+
+	.cx2{
+		height: 120px
+		margin: 10px;
+	}
+}
+
+@media (max-width: 550px){
+	.colum-left{
+		display: none;
+	}
+	
+	.colum-rigth{
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		min-width: 280px;
 		height: 80%;
@@ -148,6 +178,8 @@ body{
 	.container{
 		width: 80%;
 		justify-content: center;
+		
+
 	}
 
 	.cx1{
